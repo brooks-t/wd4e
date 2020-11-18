@@ -1,31 +1,49 @@
 <!--This is an example website created by Brooks Tiffany-->
-<!DOCTYPE html> <!--lets us know this is an HTML5 document-->
-<html lang="en"> <!--the root of our html tree - delcares english as our language-->
+<!DOCTYPE html><!--lets us know this is an HTML5 document-->
+<html lang="en"><!--the root of our html tree - delcares english as our language-->
 
-<head> <!--contains the metadata for our page, most of this does not display-->
-  <meta charset="UTF-8"> <!--declares what keyboard we're using-->
-  <title>WD4B</title> <!--this is the tiny title in your tab-->
+<head><!--contains the metadata for our page, most of this does not display-->
+  <meta charset="UTF-8"><!--declares what keyboard we're using-->
+  <title>WD4B</title><!--this is the tiny title in your tab-->
 </head>
 
-<body>
-  <h1>Welcome</h1> <!--headings are great for guiding the reader and also helping search engines index your content. do not use them for bolding. only for semantic value.-->
-    <p> <!--this is a paragraph element, used for paragraph text-->
-      Welcome to Web Development for Brooks!!
-    </p>
-  <div> <!--div is used to target content, usually for styles. they often have a class or id associated with them-->
+<body id="top">
+  <header><!-- header is a semantic structural element used to identify the top of a page, section, article, etc. can contain navigation -->
+    <nav><!--This is my navigation menu-->
+      <a href="index.html">Home</a>
+    </nav>
+    <h1>Welcome to WD4B</h1><!--headings are great for guiding the reader and also helping search engines index your content. do not use them for bolding. only for semantic value.-->
+
+      <p><!--this is a paragraph element, used for paragraph text-->
+        Welcome to Web Development for Brooks!!
+      </p>
+  <header>
+  <div><!--div is used to target content, usually for styles. they often have a class or id associated with them-->
     <h2>Purpose</h2>
       <p>
-        This website is for practice and showcasing my <span>awesome</span> abilities. <!--notice the span here. it's an inline wrappter, kind of like the div for targeted styling-->
+        This website is for practice and showcasing my <span>awesome</span> abilities.<!--notice the span here. it's an inline wrappter, kind of like the div for targeted styling-->
       </p>
   </div>
 
   <h3>Bold and Italicize</h3>
     <p>
-      Here is an example of <strong>a strong bold</strong> versus a <b>regular bold</b> <!--there is no difference in the appearance but the semantic difference behind the scenes is important-->
+      Here is an example of <strong>a strong bold</strong> versus a <b>regular bold</b><!--there is no difference in the appearance but the semantic difference behind the scenes is important-->
     </p>
     <p>
-      Here is an example of an <em>emphasized italicize</em> versus a <i>regular italicize</i> <!--again, there is no differenc in appearance. semantically, it's really important.-->
+      Here is an example of an <em>emphasized italicize</em> versus a <i>regular italicize</i><!--again, there is no differenc in appearance. semantically, it's really important.-->
     </p>
+
+    <ul><!--element that creates an unordered list-->
+      <li>Brooks</li><!--element that creates a list item-->
+      <li>Hannah</li>
+      <li>Deckster</li>
+      <li>Gibbs</li>
+    </ul>
+
+  <footer>
+    <a href="#top">Back to top</a><!--using an id to link the user back to the top of the page-->
+    <small>&copy; Brooks Tiffany WD4B</small><!-- notice the character encoding for the copyright symbol-->
+  </footer>
 </body>
 
-</html> <!--closes our html tree element-->
+</html><!--closes our html tree element-->
