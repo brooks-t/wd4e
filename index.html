@@ -32,13 +32,54 @@
     <p>
       Here is an example of an <em>emphasized italicize</em> versus a <i>regular italicize</i><!--again, there is no differenc in appearance. semantically, it's really important.-->
     </p>
+  <section id="lists">
+    <h1>Lists</h1>
+    <h2>Unordered List</h2>
+      <ul><!--element that creates an unordered list-->
+        <li>Brooks</li><!--element that creates a list item-->
+        <li>Hannah</li>
+        <li>Deckster</li>
+        <li>Gibbs</li>
+      </ul>
+    <h2>Ordered List with Start attribute</h2>
+      <ol start="81"><!--element creates an ordered list. start attribute starts the list at 81-->
+        <li>Used the "start" attribute to make this list start at 81</li>
+        <li>Stone</li>
+        <li>Interlake</li>
+        <li>Aurora</li>
+      </ol>
+    <h2>Ordered list with Reverse attribute</h2>
+      <ol reversed><!--element creates an ordered list with the reverse attribute-->
+        <li>This list is now reversed</li>
+        <li>Stone</li>
+        <li value="7">I've been assigned 7 with the value attribute so everything after me continues from there.</li><!--assigns specific value to list element, all subsequent values follow this one.-->
+        <li>Aurora</li>
+      </ol>
+    <h2>Description List</h2>
+      <dl><!-- description list element commonly used for glossaries and such-->
+        <dt>study</dt><!--data term must come before definition-->
+        <dd>The devotion of time and attention to learning.</dd><!--data definition, comes after the term. you can have one or multiple of these and vice versa.-->
+        <dt>design</dt>
+        <dd>You can have two or more definitions for one term.</dd>
+        <dd>Purpose, planning, or intention that exists or is thought to exist behind an action.</dd>
+        <dt>business</dt>
+        <dt>work</dt>
+        <dd>You can also have more than one term associated with a single definition.</dd>
+    <h2>Nesting Lists</h2>
+      <ol>
+        <li>Walk the dog</li>
+        <li>Fold laundry</li>
+        <li>Groceries to buy:</li>
+          <ul>
+            <li>milk</li>
+            <li>bread</li>
+            <li>cheese</li>
+          </ul>
+        <li>mow the lawn</li>
+        <li>make dinner</li>
+      </ol>
 
-    <ul><!--element that creates an unordered list-->
-      <li>Brooks</li><!--element that creates a list item-->
-      <li>Hannah</li>
-      <li>Deckster</li>
-      <li>Gibbs</li>
-    </ul>
+  </section>
 
   <footer>
     <a href="#top">Back to top</a><!--using an id to link the user back to the top of the page-->
