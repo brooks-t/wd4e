@@ -1,0 +1,29 @@
+/*Homework 1 CSS File */
+
+header{
+  background-color: #009999;
+}
+
+h1{
+  text-transform:uppercase;
+  text-align: center;
+  color: #FFFF66;
+}
+
+a{
+  color: #ff6699;
+  background-color: #99FFFF;
+}
+
+aside{
+  display: none;
+}
+
+section{
+  background-color: #00CCCC;
+}
+
+h2{
+  color: #cc6600;
+  text-transform: uppercase;
+}
